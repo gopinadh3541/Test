@@ -37,7 +37,7 @@ public class NewTest {
 		driver.manage().window().maximize();
 		WebElement Searchbox = driver.findElement(By.name("uname"));
 		WebElement Searchbox1=driver.findElement(By.name("pwd"));
-		Searchbox.sendKeys("Hello");
+		Searchbox.sendKeys("Admin");
 		Searchbox1.sendKeys("Hello");
 		WebElement Searchbox2=driver.findElement(By.name("submit"));
 		Searchbox2.submit();
