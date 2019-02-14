@@ -37,8 +37,8 @@ public class NewTest {
 		driver.manage().window().maximize();
 		WebElement Searchbox = driver.findElement(By.name("uname"));
 		WebElement Searchbox1=driver.findElement(By.name("pwd"));
-		Searchbox.sendKeys("admin");
-		Searchbox1.sendKeys("admin");
+		Searchbox.sendKeys("Hello");
+		Searchbox1.sendKeys("Hello");
 		WebElement Searchbox2=driver.findElement(By.name("submit"));
 		Searchbox2.submit();
 		System.out.println("After Click");
